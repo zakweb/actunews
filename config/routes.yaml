@@ -1,3 +1,9 @@
-#index:
-#    path: /
-#    controller: App\Controller\DefaultController::index
+index: #  Choix du nom de la route/// PAS DE DOUBLON ////
+    path: /  #  Ma Route
+    controller: App\Controller\DefaultController::index # Execution du navigateur qd la route est détéctée
+ # :: veut dire ou va avoir lieu l'execution du controller
+#Dans cette fonction Index, il y a le contenu de la page.
+
+contact:
+    path: /page/contact
+    controller: App\Controller\DefaultController::contact
